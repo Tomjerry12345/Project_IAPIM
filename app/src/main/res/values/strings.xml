@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Project_IAPIM</string>
+    <string name="signup">Sing Up</string>
+    <string name="signin">Sign In</string>
+    <string name="no_hp">Nomor HP</string>
+    <string name="password">Password</string>
+</resources>

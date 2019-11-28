@@ -1,0 +1,32 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="rounded_form" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense" >
+
+        <item name="boxCornerRadiusBottomEnd">26dp</item>
+        <item name="boxCornerRadiusBottomStart">26dp</item>
+        <item name="boxCornerRadiusTopEnd">26dp</item>
+        <item name="boxCornerRadiusTopStart">26dp</item>
+
+    </style>
+
+    <style name="rounded_signup" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="backgroundTint">@color/color_signup</item>
+        <item name="cornerRadius">20dp</item>
+    </style>
+
+    <style name="rounded_signin" parent="Widget.MaterialComponents.Button.OutlinedButton" >
+        <item name="strokeColor">@color/color_signup</item>
+        <item name="backgroundTint">@color/white</item>
+        <item name="cornerRadius">20dp</item>
+    </style>
+
+
+</resources>

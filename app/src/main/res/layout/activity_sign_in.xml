@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".autentikasi.SignInActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/logo_iapim"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <EditText
+        android:id="@+id/no_hp"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:background="@drawable/border"
+
+        android:drawableLeft="@drawable/profile"
+        android:padding="15dp"
+        android:textSize="15dp"
+        android:drawablePadding="10dp"
+        android:hint="@string/no_hp"
+        android:singleLine="true"
+        app:boxStrokeColor="@color/color_signup"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        android:layout_marginTop="80dp"/>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:background="@drawable/border"
+        android:drawableLeft="@drawable/lock"
+        android:drawablePadding="10dp"
+        android:hint="@string/password"
+        android:padding="15dp"
+        android:singleLine="true"
+        android:layout_marginTop="20dp"
+        android:textSize="15dp"
+        app:boxStrokeColor="@color/color_signup"
+        app:layout_constraintEnd_toEndOf="@+id/no_hp"
+        app:layout_constraintStart_toStartOf="@+id/no_hp"
+        app:layout_constraintTop_toBottomOf="@+id/no_hp" />
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/material_button"
+        style="@style/rounded_signup"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:text="@string/signin"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/password"
+        app:strokeColor="@color/color_signup" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
