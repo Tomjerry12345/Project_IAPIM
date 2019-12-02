@@ -19,14 +19,22 @@
 
     <style name="rounded_signup" parent="Widget.MaterialComponents.Button.OutlinedButton">
         <item name="backgroundTint">@color/color_signup</item>
-        <item name="cornerRadius">20dp</item>
     </style>
 
     <style name="rounded_signin" parent="Widget.MaterialComponents.Button.OutlinedButton" >
         <item name="strokeColor">@color/color_signup</item>
         <item name="backgroundTint">@color/white</item>
-        <item name="cornerRadius">20dp</item>
     </style>
 
+    <style name="text_input_style" parent="Widget.MaterialComponents.TextInputLayout.FilledBox" >
+        <item name="strokeColor">@color/color_signup</item>
+        <item name="backgroundTint">@color/color_signup</item>
+    </style>
+
+    <style name="test" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense" >
+        <item name="boxStrokeColor">@color/color_signup</item>
+        <item name="boxStrokeWidth">2dp</item>
+        <item name="colorAccent">#fff</item>
+    </style>
 
 </resources>

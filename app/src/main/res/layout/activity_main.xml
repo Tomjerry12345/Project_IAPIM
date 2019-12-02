@@ -7,21 +7,16 @@
     tools:context=".MainActivity">
 
 
-    <EditText
-        android:id="@+id/input_username"
-        android:layout_width="250dp"
-        android:layout_height="50dp"
-        android:background="@drawable/border"
-        android:drawableStart="@drawable/profile"
-        android:drawableLeft="@drawable/profile"
-        android:padding="15dp"
-        android:textSize="15dp"
-        android:drawablePadding="10dp"
-        android:hint="User Name"
-        android:singleLine="true"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+<!--    <com.google.android.material.textfield.TextInputLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        app:endIconMode="password_toggle">-->
+
+<!--        <com.google.android.material.textfield.TextInputEditText-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:inputType="textPassword"/>-->
+
+<!--    </com.google.android.material.textfield.TextInputLayout>-->
 
 </androidx.constraintlayout.widget.ConstraintLayout>
